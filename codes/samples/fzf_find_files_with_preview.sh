@@ -1,0 +1,1 @@
+find ./docs -type f | sort | fzf +s --preview 'cat {}'
